@@ -25,4 +25,4 @@ jobs:
       run: docker build . --file Dockerfile --tag santiagogr1211/parcial2:latest 
 
     - name: Docker Push 
-      run: docker push santiagogr1211/parcial2
+      run: docker push santiagogr1211/parcial2:latest
